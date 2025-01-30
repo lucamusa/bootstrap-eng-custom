@@ -22,13 +22,19 @@
 </p>
 
 
-## Bootstrap 5
-Personalizzazione per il progetto interno ENG per far coesistere la libreria con il "CSS dell'applicazione"  preesistente
+## Bootstrap no Conflict based on (Bootstrap 5)
+
+The open-source project "Bootstrap No Conflict" aims to adapt the Bootstrap library to a web portal that uses its own custom CSS. The goal is to ensure compatibility between the two styles, enabling the incremental integration of features and styles from the latest version of Bootstrap without affecting the existing design and functionality of the portal.
+
+Il progetto open source "Bootstrap No Conflict" ha come obiettivo principale l'adattamento della libreria Bootstrap a un portale web che utilizza un proprio CSS personalizzato. La finalità è garantire la coesistenza tra i due stili, permettendo l'integrazione progressiva delle funzionalità e degli stili della nuova versione di Bootstrap senza compromettere l'aspetto e il comportamento del portale esistente.
+
+
+## BUILD
 Per produrre il file vub.css procedere come segue:
 
 ```bash
 cd ./scss
-sass generazione_build_vub.scss ./../target/vub.css
+sass custom_build.scss ./../target/xxx.css
 ```
 
 Installare sass sulla propria macchina.
